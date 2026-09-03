@@ -1,0 +1,172 @@
+transaction_id,step,note
+TXN001,detector,flagged as non-success
+TXN004,detector,flagged as non-success
+TXN011,detector,flagged as non-success
+TXN012,detector,flagged as non-success
+TXN013,detector,flagged as non-success
+TXN014,detector,flagged as non-success
+TXN016,detector,flagged as non-success
+TXN017,detector,flagged as non-success
+TXN020,detector,flagged as non-success
+TXN023,detector,flagged as non-success
+TXN024,detector,flagged as non-success
+TXN025,detector,flagged as non-success
+TXN028,detector,flagged as non-success
+TXN030,detector,flagged as non-success
+TXN032,detector,flagged as non-success
+TXN033,detector,flagged as non-success
+TXN035,detector,flagged as non-success
+TXN037,detector,flagged as non-success
+TXN039,detector,flagged as non-success
+TXN043,detector,flagged as non-success
+TXN049,detector,flagged as non-success
+TXN050,detector,flagged as non-success
+TXN052,detector,flagged as non-success
+TXN053,detector,flagged as non-success
+TXN054,detector,flagged as non-success
+TXN055,detector,flagged as non-success
+TXN056,detector,flagged as non-success
+TXN057,detector,flagged as non-success
+TXN060,detector,flagged as non-success
+TXN062,detector,flagged as non-success
+TXN063,detector,flagged as non-success
+TXN064,detector,flagged as non-success
+TXN065,detector,flagged as non-success
+TXN066,detector,flagged as non-success
+TXN069,detector,flagged as non-success
+TXN070,detector,flagged as non-success
+TXN071,detector,flagged as non-success
+TXN072,detector,flagged as non-success
+TXN073,detector,flagged as non-success
+TXN075,detector,flagged as non-success
+TXN078,detector,flagged as non-success
+TXN079,detector,flagged as non-success
+TXN082,detector,flagged as non-success
+TXN083,detector,flagged as non-success
+TXN085,detector,flagged as non-success
+TXN086,detector,flagged as non-success
+TXN087,detector,flagged as non-success
+TXN088,detector,flagged as non-success
+TXN089,detector,flagged as non-success
+TXN090,detector,flagged as non-success
+TXN091,detector,flagged as non-success
+TXN092,detector,flagged as non-success
+TXN095,detector,flagged as non-success
+TXN096,detector,flagged as non-success
+TXN097,detector,flagged as non-success
+TXN098,detector,flagged as non-success
+TXN100,detector,flagged as non-success
+TXN001,diagnoser,predicted as temporary (reason : bank_timeout)
+TXN004,diagnoser,predicted as permanent (reason : card_declined)
+TXN011,diagnoser,predicted as permanent (reason : insufficient_balance)
+TXN012,diagnoser,predicted as temporary (reason : bank_timeout)
+TXN013,diagnoser,predicted as permanent (reason : otp_timeout)
+TXN014,diagnoser,predicted as permanent (reason : otp_timeout)
+TXN016,diagnoser,predicted as permanent (reason : otp_timeout)
+TXN017,diagnoser,predicted as temporary (reason : otp_timeout)
+TXN020,diagnoser,predicted as permanent (reason : card_declined)
+TXN023,diagnoser,predicted as temporary (reason : gateway_error)
+TXN024,diagnoser,predicted as temporary (reason : gateway_error)
+TXN025,diagnoser,predicted as temporary (reason : bank_timeout)
+TXN028,diagnoser,predicted as permanent (reason : otp_timeout)
+TXN030,diagnoser,predicted as temporary (reason : bank_timeout)
+TXN032,diagnoser,predicted as permanent (reason : gateway_error)
+TXN033,diagnoser,predicted as permanent (reason : gateway_error)
+TXN035,diagnoser,predicted as permanent (reason : otp_timeout)
+TXN037,diagnoser,predicted as permanent (reason : card_declined)
+TXN039,diagnoser,predicted as permanent (reason : bank_timeout)
+TXN043,diagnoser,predicted as temporary (reason : bank_timeout)
+TXN049,diagnoser,predicted as temporary (reason : bank_timeout)
+TXN050,diagnoser,predicted as temporary (reason : gateway_error)
+TXN052,diagnoser,predicted as permanent (reason : card_declined)
+TXN053,diagnoser,predicted as temporary (reason : gateway_error)
+TXN054,diagnoser,predicted as temporary (reason : bank_timeout)
+TXN055,diagnoser,predicted as permanent (reason : insufficient_balance)
+TXN056,diagnoser,predicted as permanent (reason : card_declined)
+TXN057,diagnoser,predicted as permanent (reason : insufficient_balance)
+TXN060,diagnoser,predicted as temporary (reason : insufficient_balance)
+TXN062,diagnoser,predicted as temporary (reason : card_declined)
+TXN063,diagnoser,predicted as temporary (reason : bank_timeout)
+TXN064,diagnoser,predicted as permanent (reason : card_declined)
+TXN065,diagnoser,predicted as permanent (reason : otp_timeout)
+TXN066,diagnoser,predicted as temporary (reason : bank_timeout)
+TXN069,diagnoser,predicted as permanent (reason : bank_timeout)
+TXN070,diagnoser,predicted as temporary (reason : bank_timeout)
+TXN071,diagnoser,predicted as temporary (reason : insufficient_balance)
+TXN072,diagnoser,predicted as permanent (reason : insufficient_balance)
+TXN073,diagnoser,predicted as permanent (reason : insufficient_balance)
+TXN075,diagnoser,predicted as permanent (reason : insufficient_balance)
+TXN078,diagnoser,predicted as permanent (reason : otp_timeout)
+TXN079,diagnoser,predicted as permanent (reason : card_declined)
+TXN082,diagnoser,predicted as permanent (reason : otp_timeout)
+TXN083,diagnoser,predicted as temporary (reason : insufficient_balance)
+TXN085,diagnoser,predicted as temporary (reason : gateway_error)
+TXN086,diagnoser,predicted as temporary (reason : bank_timeout)
+TXN087,diagnoser,predicted as temporary (reason : gateway_error)
+TXN088,diagnoser,predicted as temporary (reason : gateway_error)
+TXN089,diagnoser,predicted as temporary (reason : bank_timeout)
+TXN090,diagnoser,predicted as permanent (reason : card_declined)
+TXN091,diagnoser,predicted as permanent (reason : insufficient_balance)
+TXN092,diagnoser,predicted as temporary (reason : bank_timeout)
+TXN095,diagnoser,predicted as permanent (reason : bank_timeout)
+TXN096,diagnoser,predicted as temporary (reason : gateway_error)
+TXN097,diagnoser,predicted as temporary (reason : bank_timeout)
+TXN098,diagnoser,predicted as temporary (reason : card_declined)
+TXN100,diagnoser,predicted as permanent (reason : card_declined)
+TXN001,recovery,"action = auto-retry, final_status=still_failed"
+TXN004,recovery,"action = notify_customer, final_status=pending_customer_action"
+TXN011,recovery,"action = notify_customer, final_status=pending_customer_action"
+TXN012,recovery,"action = auto-retry, final_status=recovered"
+TXN013,recovery,"action = notify_customer, final_status=pending_customer_action"
+TXN014,recovery,"action = notify_customer, final_status=pending_customer_action"
+TXN016,recovery,"action = notify_customer, final_status=pending_customer_action"
+TXN017,recovery,"action = auto-retry, final_status=still_failed"
+TXN020,recovery,"action = notify_customer, final_status=pending_customer_action"
+TXN023,recovery,"action = auto-retry, final_status=still_failed"
+TXN024,recovery,"action = auto-retry, final_status=still_failed"
+TXN025,recovery,"action = auto-retry, final_status=recovered"
+TXN028,recovery,"action = notify_customer, final_status=pending_customer_action"
+TXN030,recovery,"action = auto-retry, final_status=recovered"
+TXN032,recovery,"action = notify_customer, final_status=pending_customer_action"
+TXN033,recovery,"action = notify_customer, final_status=pending_customer_action"
+TXN035,recovery,"action = notify_customer, final_status=pending_customer_action"
+TXN037,recovery,"action = notify_customer, final_status=pending_customer_action"
+TXN039,recovery,"action = notify_customer, final_status=pending_customer_action"
+TXN043,recovery,"action = auto-retry, final_status=still_failed"
+TXN049,recovery,"action = auto-retry, final_status=recovered"
+TXN050,recovery,"action = auto-retry, final_status=still_failed"
+TXN052,recovery,"action = notify_customer, final_status=pending_customer_action"
+TXN053,recovery,"action = auto-retry, final_status=still_failed"
+TXN054,recovery,"action = auto-retry, final_status=still_failed"
+TXN055,recovery,"action = notify_customer, final_status=pending_customer_action"
+TXN056,recovery,"action = notify_customer, final_status=pending_customer_action"
+TXN057,recovery,"action = notify_customer, final_status=pending_customer_action"
+TXN060,recovery,"action = auto-retry, final_status=recovered"
+TXN062,recovery,"action = auto-retry, final_status=recovered"
+TXN063,recovery,"action = auto-retry, final_status=recovered"
+TXN064,recovery,"action = notify_customer, final_status=pending_customer_action"
+TXN065,recovery,"action = notify_customer, final_status=pending_customer_action"
+TXN066,recovery,"action = auto-retry, final_status=still_failed"
+TXN069,recovery,"action = notify_customer, final_status=pending_customer_action"
+TXN070,recovery,"action = auto-retry, final_status=still_failed"
+TXN071,recovery,"action = auto-retry, final_status=still_failed"
+TXN072,recovery,"action = notify_customer, final_status=pending_customer_action"
+TXN073,recovery,"action = notify_customer, final_status=pending_customer_action"
+TXN075,recovery,"action = notify_customer, final_status=pending_customer_action"
+TXN078,recovery,"action = notify_customer, final_status=pending_customer_action"
+TXN079,recovery,"action = notify_customer, final_status=pending_customer_action"
+TXN082,recovery,"action = notify_customer, final_status=pending_customer_action"
+TXN083,recovery,"action = auto-retry, final_status=still_failed"
+TXN085,recovery,"action = auto-retry, final_status=still_failed"
+TXN086,recovery,"action = auto-retry, final_status=recovered"
+TXN087,recovery,"action = auto-retry, final_status=still_failed"
+TXN088,recovery,"action = auto-retry, final_status=recovered"
+TXN089,recovery,"action = auto-retry, final_status=recovered"
+TXN090,recovery,"action = notify_customer, final_status=pending_customer_action"
+TXN091,recovery,"action = notify_customer, final_status=pending_customer_action"
+TXN092,recovery,"action = auto-retry, final_status=recovered"
+TXN095,recovery,"action = notify_customer, final_status=pending_customer_action"
+TXN096,recovery,"action = auto-retry, final_status=still_failed"
+TXN097,recovery,"action = auto-retry, final_status=recovered"
+TXN098,recovery,"action = auto-retry, final_status=recovered"
+TXN100,recovery,"action = notify_customer, final_status=pending_customer_action"
