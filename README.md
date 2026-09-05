@@ -18,19 +18,29 @@ with numbers.**
 ## Architecture
 
 ```
-Synthetic Transaction Data
-          │
-          ▼
-   Detector Node          →  flags every non-success transaction
-          │
-          ▼
-   Diagnoser Node         →  classifies root cause as temporary or permanent
-          │
-          ▼
-   Recovery Node          →  auto-retries temporary failures, notifies customers
-          │                  for permanent ones
-          ▼
-Audit Trail & Metrics     →  logs every decision, computes precision & recovery rate
+------------------------------
+| Synthetic Transaction Data |
+------------------------------
+         │
+         ▼
+-----------------
+| Detector Node |         →  flags every non-success transaction
+-----------------        
+         │
+         ▼
+------------------
+| Diagnoser Node |        →  classifies root cause as temporary or permanent
+------------------        
+         │
+         ▼
+-----------------
+| Recovery Node |        →  auto-retries temporary failures, notifies customers for permanent ones
+-----------------       
+         │                  
+         ▼
+------------------------
+| Audit Trail & Metrics|     →  logs every decision, computes precision & recovery rate
+------------------------     
 ```
 
 Each node is a pure function that takes the shared pipeline state, updates it, and
